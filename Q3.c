@@ -5,22 +5,22 @@ int main() {
     scanf("%d", &marks);
     
     if (marks >= 70) {
-        printf("You have scored %d marks and have therefore attained grade A", marks);
+        printf("Your mark is: %d \nYour grade is: A", marks);
     }
     else 
         if (marks >= 60) {
-            printf("You have scored %d marks and have therefore attained grade B", marks);
+            printf("Your mark is: %d \nYour grade is: B", marks);
         }
         else 
             if (marks >= 50) {
-                printf("You have scored %d marks and have therefore attained grade C", marks);
+                printf("Your mark is: %d \nYour grade is: C", marks);
             }
             else 
                 if (marks >= 40) {
-                    printf("You have scored %d marks and have therefore attained grade D", marks);
+                    printf("Your mark is: %d \nYour grade is: D", marks);
                 }
                 else {
-                    printf("You have scored %d marks and have therefore attained grade E", marks);
+                    printf("Your mark is: %d \nYour grade is: E", marks);
                 }
 
     return 0;
